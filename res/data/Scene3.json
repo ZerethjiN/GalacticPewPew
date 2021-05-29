@@ -1,0 +1,856 @@
+{
+    "entities": [
+        {
+            "currentScene": { "name": "Scene3" }
+        },
+        {
+            "ambient": { "r": 0.5, "g": 0.5, "b": 0.5 }
+        },
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 17,
+                "height": 14,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+                    10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+                    8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+                    8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+                    8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+                    8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+                    8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+                    9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9,
+                    2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+                    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                    1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+                ]
+            },
+            "position": { "x": 0, "y": 0 },
+            "tileMapInfiniteParallex": {}
+        },
+
+
+
+
+        {
+            "player": { "speed": 150, "shootCooldown": 0.2 },
+            "scrapScoring": {},
+            "animation": { "nbFrame": 1, "nextFramePosition": 48, "timeByFrame": 0.2, "type": "oscillaire" },
+            "position": { "x": 32, "y": 100 },
+            "texture": { "file": "Joueur", "x": 0, "y": 0, "width": 48, "height": 48 },
+            "vector2": { "x": 0, "y": 0 },
+            "collider": { "x": 16, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 0, "v": 1, "b": 0.5 }, "radiusMin": 32, "radiusMax": 48, "speed": 10 }
+        },
+
+
+        
+
+
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 512, "y": 48 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 544, "y": 48 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 576, "y": 48 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 832, "y": 112 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 864, "y": 112 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 896, "y": 112 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "shooteur": { "shootCooldown": 2 },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1088, "y": 32 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "shooteur": { "shootCooldown": 2 },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1104, "y": 80 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "shooteur": { "shootCooldown": 2 },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1120, "y": 128 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "meteore": { "fromTop": false },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 1376, "y": 208 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1408, "y": 80 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "meteore": { "fromTop": true },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 1392, "y": 0 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "fonceurOndulent": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1664, "y": 64 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceurOndulent": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1664, "y": 112 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1920, "y": 80 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1952, "y": 80 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 1984, "y": 80 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "meteore": { "fromTop": false },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 2240, "y": 208 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 2272, "y": 80 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "meteore": { "fromTop": true },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 2256, "y": 0 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "bordure": {
+                "file": "backgroundScene3",
+                "fileNormal": "backgroundNormal",
+                "width": 160,
+                "height": 1,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "texIntTop": 13,
+                "texIntBottom": 12,
+                "positionX": 1392
+            }
+        },
+
+
+
+
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 2 },
+            "tour": { "shootCooldown": 3, "fromTop": true },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Tour", "x": 0, "y": 32, "width": 16, "height": 32 },
+            "position": { "x": 1424, "y": 16 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 32, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 2 },
+            "tour": { "shootCooldown": 3, "fromTop": false },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Tour", "x": 0, "y": 0, "width": 16, "height": 32 },
+            "position": { "x": 1424, "y": 160 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 32, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+    
+
+
+
+
+
+        {
+            "decor": { "speed": 50 },
+            "barriere": { "activationCooldown": 1 },
+            "texture": { "file": "Barriere", "x": 0, "y": 16, "width": 16, "height": 176 },
+            "position": { "x": 1488, "y": 16 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 176, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "tourelle": { "shootCooldown": 3, "staticX": 120, "isTop": false },
+            "animation": { "nbFrame": 2, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "TourelleFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "normal": { "file": "TourelleNormal", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3104, "y": 32 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "tourelle": { "shootCooldown": 3, "staticX": 120, "isTop": false },
+            "animation": { "nbFrame": 2, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "TourelleFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "normal": { "file": "TourelleNormal", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3104, "y": 128 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 3 },
+            "spawner": { "spawnCooldown": 1.5 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.75, "type": "oscillaire" },
+            "texture": { "file": "Spawner", "x": 0, "y": 32, "width": 32, "height": 32 },
+            "position": { "x": 1680, "y": 16 },
+            "collider": { "x": 0, "y": 16, "width": 32, "height": 16, "colliderOn": true }
+        },
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 3 },
+            "spawner": { "spawnCooldown": 1.5 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.75, "type": "oscillaire" },
+            "texture": { "file": "Spawner", "x": 0, "y": 0, "width": 32, "height": 32 },
+            "position": { "x": 1680, "y": 160 },
+            "collider": { "x": 0, "y": 16, "width": 32, "height": 16, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "shooteur": { "shootCooldown": 2 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Fonceur", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3488, "y": 32 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "shooteur": { "shootCooldown": 2 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Fonceur", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3488, "y": 80 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "shooteur": { "shootCooldown": 2 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Fonceur", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3488, "y": 144 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 17,
+                "height": 5,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+                ]
+            },
+            "position": { "x": 1872, "y": 0 },
+            "decor": { "speed": 50 },
+            "collider": { "x": 0, "y": 0, "width": 272, "height": 80, "colliderOn": true }
+        },
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 22,
+                "height": 2,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+                ]
+            },
+            "position": { "x": 1872, "y": 160 },
+            "decor": { "speed": 50 },
+            "collider": { "x": 0, "y": 0, "width": 272, "height": 48, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "decor": { "speed": 50 },
+            "barriere": { "activationCooldown": 1 },
+            "texture": { "file": "Barriere", "x": 0, "y": 112, "width": 16, "height": 80 },
+            "position": { "x": 1904, "y": 80 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 80, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "meteore": { "fromTop": false },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3904, "y": 208 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "meteore": { "fromTop": true },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 3920, "y": 0 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 2 },
+            "tour": { "shootCooldown": 3, "fromTop": true },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Tour", "x": 0, "y": 32, "width": 16, "height": 32 },
+            "position": { "x": 2088, "y": 80 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 32, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 16,
+                "height": 6,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+                ]
+            },
+            "position": { "x": 2224, "y": 96 },
+            "decor": { "speed": 50 },
+            "collider": { "x": 0, "y": 0, "width": 272, "height": 48, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "decor": { "speed": 50 },
+            "barriere": { "activationCooldown": 1 },
+            "texture": { "file": "Barriere", "x": 0, "y": 112, "width": 16, "height": 80 },
+            "position": { "x": 2256, "y": 16 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 80, "colliderOn": true }
+        },
+        
+
+
+
+
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "shooteur": { "shootCooldown": 2 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Fonceur", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 4576, "y": 48 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 34,
+                "height": 3,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+                ]
+            },
+            "position": { "x": 2480, "y": 160 },
+            "decor": { "speed": 50 },
+            "collider": { "x": 0, "y": 0, "width": 272, "height": 48, "colliderOn": true }
+        },
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 24,
+                "height": 3,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+                ]
+            },
+            "position": { "x": 2560, "y": 0 },
+            "decor": { "speed": 50 },
+            "collider": { "x": 0, "y": 0, "width": 272, "height": 48, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "tourelle": { "shootCooldown": 3, "staticX": 120, "isTop": false },
+            "animation": { "nbFrame": 2, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "TourelleFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "normal": { "file": "TourelleNormal", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 5184, "y": 64 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "tourelle": { "shootCooldown": 3, "staticX": 120, "isTop": false },
+            "animation": { "nbFrame": 2, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "TourelleFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "normal": { "file": "TourelleNormal", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 5184, "y": 128 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 3 },
+            "spawner": { "spawnCooldown": 1.5 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.75, "type": "oscillaire" },
+            "texture": { "file": "Spawner", "x": 0, "y": 0, "width": 32, "height": 32 },
+            "position": { "x": 2720, "y": 128 },
+            "collider": { "x": 0, "y": 16, "width": 32, "height": 16, "colliderOn": true }
+        },
+        {
+            "ennemy": { "speed": 50, "points": 50, "hp": 3 },
+            "spawner": { "spawnCooldown": 1.5 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.75, "type": "oscillaire" },
+            "texture": { "file": "Spawner", "x": 0, "y": 32, "width": 32, "height": 32 },
+            "position": { "x": 2720, "y": 48 },
+            "collider": { "x": 0, "y": 16, "width": 32, "height": 16, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "tourelle": { "shootCooldown": 3, "staticX": 120, "isTop": false },
+            "animation": { "nbFrame": 2, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "TourelleFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "normal": { "file": "TourelleNormal", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 5568, "y": 64 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "tourelle": { "shootCooldown": 3, "staticX": 120, "isTop": false },
+            "animation": { "nbFrame": 2, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "TourelleFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "normal": { "file": "TourelleNormal", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 5568, "y": 128 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "tileMap": {
+                "file": "backgroundScene3",
+                "width": 29,
+                "height": 6,
+                "tileWidth": 16,
+                "tileHeight": 16,
+                "tiles": [
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13,
+                    13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13
+                ]
+            },
+            "position": { "x": 3024, "y": 96 },
+            "decor": { "speed": 50 },
+            "collider": { "x": 0, "y": 0, "width": 272, "height": 48, "colliderOn": true }
+        },
+
+
+
+
+        {
+            "meteore": { "fromTop": true },
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 3, "nextFramePosition": 16, "timeByFrame": 0.25, "type": "modulaire" },
+            "texture": { "file": "MeteoreFlat", "x": 0, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 5984, "y": 0 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 6176, "y": 16 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 6176, "y": 48 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 6304, "y": 16 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 6320, "y": 32 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+        {
+            "fonceur": {},
+            "ennemy": { "speed": 100, "points": 50, "hp": 1 },
+            "animation": { "nbFrame": 1, "nextFramePosition": 32, "timeByFrame": 0.2, "type": "oscillaire" },
+            "texture": { "file": "FonceurFlat", "x": 0, "y": 0, "width": 32, "height": 48 },
+            "position": { "x": 6336, "y": 48 },
+            "collider": { "x": 0, "y": 16, "width": 16, "height": 16, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 16, "radiusMax": 32, "speed": 10 }
+        },
+
+
+
+
+
+        {
+            "decor": { "speed": 50 },
+            "barriere": { "activationCooldown": 1 },
+            "texture": { "file": "Barriere", "x": 0, "y": 112, "width": 16, "height": 80 },
+            "position": { "x": 3424, "y": 16 },
+            "collider": { "x": 0, "y": 0, "width": 16, "height": 80, "colliderOn": true }
+        },
+
+
+
+
+
+        {
+            "moon": { "shootCooldown": 3, "staticX": 192 },
+            "ennemy": { "speed": 25, "points": 50, "hp": 25 },
+            "animation": { "nbFrame": 2, "nextFramePosition": 48, "timeByFrame": 0.25, "type": "oscillaire" },
+            "texture": { "file": "Lune", "x": 0, "y": 0, "width": 48, "height": 48 },
+            "position": { "x": 1904, "y": 112 },
+            "collider": { "x": 0, "y": 0, "width": 48, "height": 48, "colliderOn": true },
+            "light": { "color": { "r": 1, "v": 0.5, "b": 0 }, "radiusMin": 48, "radiusMax": 64, "speed": 10 },
+            "midBoss": { "nextStage": "Scene3Partie2" }
+        },
+
+
+
+
+        
+        {
+            "texture": { "file": "HUD", "x": 64, "y": 0, "width": 40, "height": 16 },
+            "position": { "x": 0, "y": 208 },
+            "hud": { "cost": 0, "background": false, "bouclier": false, "tirMultiple": false, "acceleration": false, "drone": false },
+            "noShader": {}
+        },
+        {
+            "texture": { "file": "HUD", "x": 160, "y": 16, "width": 48, "height": 16 },
+            "position": { "x": 40, "y": 208 },
+            "hud": { "cost": 2, "background": true, "bouclier": false, "tirMultiple": true, "acceleration": false, "drone": false  },
+            "noShader": {}
+        },
+        {
+            "texture": { "file": "HUD", "x": 16, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 48, "y": 208 },
+            "hud": { "cost": 0, "background": false, "bouclier": false, "tirMultiple": false, "acceleration": false, "drone": false  },
+            "noShader": {}
+        },
+        {
+            "texture": { "file": "HUD", "x": 160, "y": 16, "width": 48, "height": 16 },
+            "position": { "x": 88, "y": 208 },
+            "hud": { "cost": 2, "background": true, "bouclier": false, "tirMultiple": false, "acceleration": true, "drone": false  },
+            "noShader": {}
+        },
+        {
+            "texture": { "file": "HUD", "x": 32, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 96, "y": 208 },
+            "hud": { "cost": 0, "background": false, "bouclier": false, "tirMultiple": false, "acceleration": false, "drone": false  },
+            "noShader": {}
+        },
+        {
+            "texture": { "file": "HUD", "x": 160, "y": 16, "width": 48, "height": 16 },
+            "position": { "x": 136, "y": 208 },
+            "hud": { "cost": 2, "background": true, "bouclier": true, "tirMultiple": false, "acceleration": false, "drone": false  },
+            "noShader": {}
+        },
+        {
+            "texture": { "file": "HUD", "x": 48, "y": 0, "width": 16, "height": 16 },
+            "position": { "x": 144, "y": 208 },
+            "hud": { "cost": 0, "background": false, "bouclier": false, "tirMultiple": false, "acceleration": false, "drone": false  },
+            "noShader": {}
+        }
+    ],
+    "systems": [
+        "Input",
+        "selectorMovement",
+        "retourMenu",
+
+        "playerMovement",
+        "ennemyMovement",
+        "tourelleMouvement",
+        "fonceurOndulentMovement",
+        "meteoreMovement",
+        "decorMovement",
+        "kamikazeMovement",
+        "moonMovement",
+
+        "playerShoot",
+        "tourShoot",
+        "tourelleShoot",
+        "decorAction",
+        "spawnerAction",
+        "shooteurShoot",
+        "moonShoot",
+
+        "playerMissile",
+        "ennemyMissile",
+
+        "playerCollision",
+        "ennemyCollision",
+
+        "scrapMovement",
+        "recuperationScrap",
+
+        "particuleLife",
+        "playerShield",
+
+        "backgroundParallaxe",
+        "animation",
+        "dynamicLight",
+        "dynamicHUD",
+        "jaugeDynamiquer",
+        "shieldHUD",
+
+        "draw"
+    ]
+}
